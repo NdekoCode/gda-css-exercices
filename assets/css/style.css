@@ -1,4 +1,17 @@
+*,*::before,*::after{
+  margin:0;
+  padding:0;
+}
 html, body {
   height: 100%;
   width: 100%;
+  font-family: 'Segoe UI',sans-serif;
+}
+h1{
+  font-weight: 900;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family:serif;
+  margin:1rem 0;
 }
