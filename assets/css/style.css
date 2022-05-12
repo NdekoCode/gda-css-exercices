@@ -1,17 +1,62 @@
+/* Basic Configuration */
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&family=Source+Serif+Pro:ital,wght@0,700;0,900;1,700;1,900&display=swap');
+:root {
+  --color-dark: #000;
+  --color-white: #fff;
+  --color-red: #cf0020;
+  --color-bg:#c8c8c8;
+  --color-text: #222;
+  --color-end: #b7b7b7;
+  --color-th: #ddd;
+  --color-important-td:#999;
+  --color-blue: #483aad;
+}
+
 *,*::before,*::after{
-  margin:0;
-  padding:0;
+  box-sizing: border-box;
+  font-weight: 500;
 }
 html, body {
   height: 100%;
   width: 100%;
-  font-family: 'Segoe UI',sans-serif;
+  font-family: 'Cabin',sans-serif;
+  background-color: #c8c8c8;
+  font-weight: 500;
+  color:var( --color-text);
 }
-h1{
-  font-weight: 900;
+a ,.title.title-2{
+  color: var(--color-red);
+  font-weight: bold;
 }
-
-h1,h2,h3,h4,h5,h6 {
-  font-family:serif;
+strong {
+  font-weight: 700;
+  color: var(--color-dark);
+}
+em ,.explanation{
+  font-style: italic;
+}
+.title {
+  font-family:'Source Serif Pro',serif;
+  font-weight: 700;
+  color: var(--color-dark);
   margin:1rem 0;
+}
+.title.title-1 {
+  font-weight: 900;
+  font-size: 4rem;
+  text-align:center;
+}
+.title.title-2 {
+  font-size:2.5rem;
+}
+table {
+  cellspacing
+}
+thead {
+  background-color: var(--color-text);
+  color: var(--color-bg);
+}
+th {
+  padding:5px;
 }
