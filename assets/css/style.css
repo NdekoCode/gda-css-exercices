@@ -1,6 +1,6 @@
 /* Basic Configuration */
-@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&family=Source+Serif+Pro:ital,wght@0,700;0,900;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,700;0,900;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
 :root {
   --color-dark: #000;
   --color-white: #fff;
@@ -21,7 +21,7 @@
 html, body {
   height: 100%;
   width: 100%;
-  font-family: 'Cabin',sans-serif;
+  font-family: 'Roboto',sans-serif;
   background-color: #c8c8c8;
   font-weight: 500;
   color:var( --color-text);
@@ -43,7 +43,7 @@ a ,.title.title-2{
   font-weight: bold;
 }
 strong {
-  font-weight: 700;
+  font-weight: 900;
   color: var(--color-dark);
 }
 em ,.explanation{
@@ -71,7 +71,7 @@ thead {
   color: var(--color-bg);
 }
 th,td {
-  padding:5px;
+  padding:10px;
 }
 tbody tr:nth-child(2n+1) {
   background-color: var(--color-td-bg);
@@ -92,6 +92,8 @@ th {
 }
 .description-img figcaption {
   font-style: italic;
+  margin: 10px;
+  padding:5px;
 }
 .ending{
   padding: 25px;
